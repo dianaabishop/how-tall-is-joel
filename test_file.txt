@@ -1,1 +1,2 @@
+here is a test commit 2
 here is a test commit 1
