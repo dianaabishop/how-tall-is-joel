@@ -8,22 +8,11 @@ import{
 } from "react-router-dom";
 import './styles/main.scss';
 import Home from './Home.jsx';
-import Team from './Team.jsx';
-import APIinfo from './APIinfo.jsx';
 
 const App = () => {
     return (
       <Router>
         <Switch>
-        <Route path="/APIInfo">
-            <APIinfo />
-          </Route>
-          <Route path="/team">
-            <Team />
-          </Route>
-          <Route path="/team-2022">
-            <Team year={2022} />
-          </Route>
           <Route path="/">
             <Home />
           </Route>

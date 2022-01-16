@@ -1,37 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
 $bg: #fff;
 $text: #7288a2;
 $gray: #4d5974;
 $lightgray: #e5e5e5;
 $blue: #03b5d2;
 
-@import 'logo.scss';
 @import 'banner.scss';
-@import 'sidebar.scss';
-@import 'api-buttons.scss';
-@import 'center-card.scss';
-@import 'input-form.scss';
-@import 'results-box.scss';
-@import '2021_team_styles/tajra-bio.scss';
-@import '2021_team_styles/dana-bio.scss';
-@import '2021_team_styles/roma-bio.scss';
-@import '2021_team_styles/lara-bio.scss';
-@import '2021_team_styles/andrea-bio.scss';
-@import '2021_team_styles/teamlist.scss';
-@import 'comments.scss';
-@import 'homecards.scss';
-@import 'api-example.scss';
 @import 'footer.scss';
-@import 'api-info.scss';
-@import 'Kad_bio.scss';
-@import '2021_team_styles/margaret-bio.scss';
-@import 'lauren-bio.scss';
-@import '2022_team_styles/_skyler-bio.scss';
 
-.main {
-    display: flex;
-    min-height: 100vh;	    
-    position:relative;
-}
 html, body {
     margin: 0;
     padding: 0;
@@ -40,3 +17,43 @@ html, body {
     color: $gray;
     min-height: 100vh;
   }
+
+.main {
+    position: absolute;
+    width: 1512px;
+    height: 440px;
+    left: 0px;
+    top: -10px;
+
+    background: #DCEDC1;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+.header-h2 { 
+    display: inline; 
+    color: black;
+    float:left;
+    margin-left:75px;
+}
+
+.nav-bar {
+    font-family: 'Quantico', sans-serif;;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    top: 20px;
+    background:#DCEDC1;
+}
+
+.diana-image {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 926px;
+    border-radius: 50%;
+    top: 23px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+// 640 originally
