@@ -3,7 +3,7 @@
 .footer {
   position: absolute;
   width: 1512px;
-  height: 552px;
+  height: 300px;
   left: 0px;
   top: 430px;
   
@@ -11,3 +11,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.walter-and-paco-image {
+  position: absolute;
+  height: 300px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
