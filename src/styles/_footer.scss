@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.footer {
+  position: absolute;
+  width: 1512px;
+  height: 300px;
+  left: 0px;
+  top: 430px;
+  
+  background: #FFD4D1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.walter-and-paco-image {
+  position: absolute;
+  height: 300px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.walter-creeper-image {
+  position: absolute;
+  height: 100px;
+  float: right;
+  left: 1100px;
+  bottom: 0px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
